@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Matriks</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kalkulator Matriks</h1>
+        <form id="matrix-form">
+            <label for="matrix-size">Pilih Ukuran Matriks:</label>
+            <select id="matrix-size">
+                <option value="2">2x2</option>
+                <option value="3">3x3</option>
+            </select>
+            <div id="matrix-input"></div>
+            <button type="button" id="calculate-btn">Hitung</button>
+        </form>
+        <div id="results">
+            <h2>Hasil:</h2>
+            <div id="steps"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
